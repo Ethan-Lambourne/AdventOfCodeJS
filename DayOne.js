@@ -48,7 +48,9 @@ fs.readFile(fileName, 'utf-8', (err, data) =>
             total += numbersToAdd[num];
         }
     }
-    console.log(`Total: ${total}`);
+    console.log(`Day One:
+Total: ${total}
+----------------------------------`);
 });
 
 function ConvertNumber(number) 
