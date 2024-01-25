@@ -1,5 +1,5 @@
 const fs = require('node:fs');
-let fileName = "input.txt";
+let fileName = "DayOneInput.txt";
 let numbersToAdd = [];
 const validNumbers = ['1','2','3','4','5','6','7','8','9','one','two','three','four','five','six','seven','eight','nine',];
 fs.readFile(fileName, 'utf-8', (err, data) => 
